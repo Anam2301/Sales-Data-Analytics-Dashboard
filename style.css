@@ -1,0 +1,96 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* Cards */
+.dashboard {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card:nth-child(1) {
+    background: #3498db;
+}
+
+.card:nth-child(2) {
+    background: #2ecc71;
+}
+
+.card:nth-child(3) {
+    background: #e67e22;
+}
+
+/* Charts */
+.charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+canvas {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 250px;
+    /* smaller charts */
+}
+
+#pieChart {
+    grid-column: span 2;
+    max-height: 220px;
+}
+
+/* Table */
+.table-container {
+    margin-top: 15px;
+    max-height: 250px;
+    overflow-y: auto;
+    background: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+}
+
+th,
+td {
+    padding: 6px;
+    border: 1px solid #ddd;
+}

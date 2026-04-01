@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sales Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>📊 Sales Dashboard</h1>
+    </div>
+
+    <div class="container">
+
+        <input type="file" id="fileInput" accept=".csv" />
+
+        <!-- Filter -->
+        <select id="categoryFilter">
+            <option value="All">All Categories</option>
+        </select>
+
+        <!-- Cards -->
+        <div class="dashboard">
+            <div class="card">💰 Total Sales <span id="totalSales">0</span></div>
+            <div class="card">📦 Orders <span id="totalOrders">0</span></div>
+            <div class="card">📈 Profit <span id="totalProfit">0</span></div>
+        </div>
+
+        <!-- Charts -->
+        <div class="charts">
+            <canvas id="barChart"></canvas>
+            <canvas id="lineChart"></canvas>
+            <canvas id="pieChart"></canvas>
+        </div>
+
+        <!-- Table -->
+        <div class="table-container">
+            <table id="dataTable">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
