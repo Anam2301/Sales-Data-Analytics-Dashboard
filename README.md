@@ -30,7 +30,7 @@ Built with JavaScript, this tool provides real-time insights through charts, met
 
 ## 🌐 Live Demo
 
-👉 https://yourusername.github.io/Sales-Data-Analytics-Dashboard/
+👉https://anam2301.github.io/Sales-Data-Analytics-Dashboard/
 
 ---
 
