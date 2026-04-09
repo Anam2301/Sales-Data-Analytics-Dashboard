@@ -44,6 +44,6 @@ Built with JavaScript, this tool provides real-time insights through charts, met
    - Table  
 4. Use the filter to explore data  
 
----
 
-## 📁 Sample CSV Format
+
+
